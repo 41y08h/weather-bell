@@ -1,2 +1,2 @@
 # weather-bell
-Check current weather of any city in the world.
+Check the current weather of any city in the world.
