@@ -1,0 +1,21 @@
+{
+  "name": "weather-bell",
+  "version": "1.0.0",
+  "description": "You need to check weather probably!",
+  "main": "index.js",
+  "author": "Piyush",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:css": "cross-env NODE_ENV=production tailwind build src/styles.css -o src/dist/styles.css -c tailwind.config.js",
+    "dev:css": "tailwind build src/styles.css -o src/dist/styles.css -c tailwind.config.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.14",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
