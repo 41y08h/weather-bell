@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const infoContainer = document.querySelector("#infoContainer");
 
 const API_URL =
-  "http://api.openweathermap.org/data/2.5/weather?q=city&appid=8008bcf0e10d9ad68ab28560b9dc6b49&units=metric";
+  "https://api.openweathermap.org/data/2.5/weather?q=city&appid=8008bcf0e10d9ad68ab28560b9dc6b49&units=metric";
 
 form.addEventListener("submit", getWeatherInfo);
 async function getWeatherInfo(e) {
